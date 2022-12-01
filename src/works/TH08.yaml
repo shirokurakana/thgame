@@ -1,0 +1,37 @@
+order: 800
+code: TH08
+title: 东方永夜抄
+suffix: 正式版
+hidden: false
+tags:
+  era: new
+  state: final
+items:
+  - title: 网页 Manual
+    links:
+      wiki: 附带文档:东方永夜抄/Manual
+      ja: /manual/th08/ja/
+      zh: /manual/th08/zh/
+    type:
+      - manual
+  - title: Custom
+    links:
+      wiki: 附带文档:东方永夜抄/Custom
+    type:
+      - custom
+  - title: Omake
+    links:
+      wiki: 附带文档:东方永夜抄/Omake
+    type:
+      - omake
+  - title: Readme
+    links:
+      wiki: 附带文档:东方永夜抄/Readme
+    type:
+      - readme
+  - title: 角色设定
+    links:
+      wiki: 附带文档:东方永夜抄/角色设定
+    type:
+      - 角色设定
+cover: https://upload.thwiki.cc/thumb/e/ee/%E4%B8%9C%E6%96%B9%E6%B0%B8%E5%A4%9C%E6%8A%84%E5%B0%81%E9%9D%A2.jpg/80px-%E4%B8%9C%E6%96%B9%E6%B0%B8%E5%A4%9C%E6%8A%84%E5%B0%81%E9%9D%A2.jpg

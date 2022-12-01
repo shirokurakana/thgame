@@ -1,0 +1,32 @@
+order: 1400
+code: TH14
+title: 东方辉针城
+suffix: 正式版
+hidden: false
+tags:
+  era: new
+  state: final
+items:
+  - title: 网页 Manual
+    links:
+      wiki: 附带文档:东方辉针城/Manual
+      ja: /manual/th14/ja/
+      zh: /manual/th14/zh/
+    type:
+      - manual
+  - title: 游戏内Manual
+    links:
+      wiki: 附带文档:东方辉针城/游戏内Manual
+    type:
+      - manual
+  - title: Omake
+    links:
+      wiki: 附带文档:东方辉针城/Omake
+    type:
+      - omake
+  - title: Readme
+    links:
+      wiki: 附带文档:东方辉针城/Readme
+    type:
+      - readme
+cover: https://upload.thwiki.cc/thumb/a/a5/%E4%B8%9C%E6%96%B9%E8%BE%89%E9%92%88%E5%9F%8E%E5%B0%81%E9%9D%A2.jpg/80px-%E4%B8%9C%E6%96%B9%E8%BE%89%E9%92%88%E5%9F%8E%E5%B0%81%E9%9D%A2.jpg

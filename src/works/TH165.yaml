@@ -1,0 +1,25 @@
+order: 1650
+code: TH165
+title: 秘封噩梦日记
+suffix: 正式版
+hidden: false
+tags:
+  era: new
+  state: final
+items:
+  - title: 游戏内Manual
+    links:
+      wiki: 附带文档:秘封噩梦日记/游戏内Manual
+    type:
+      - manual
+  - title: Omake
+    links:
+      wiki: 附带文档:秘封噩梦日记/Omake
+    type:
+      - omake
+  - title: Readme
+    links:
+      wiki: 附带文档:秘封噩梦日记/Readme
+    type:
+      - readme
+cover: https://upload.thwiki.cc/thumb/3/3e/%E7%A7%98%E5%B0%81%E5%99%A9%E6%A2%A6%E6%97%A5%E8%AE%B0%E5%B0%81%E9%9D%A2.jpg/80px-%E7%A7%98%E5%B0%81%E5%99%A9%E6%A2%A6%E6%97%A5%E8%AE%B0%E5%B0%81%E9%9D%A2.jpg

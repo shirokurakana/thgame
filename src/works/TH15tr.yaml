@@ -1,0 +1,25 @@
+order: 1501
+code: TH15tr
+title: 东方绀珠传
+suffix: 体验版
+hidden: true
+tags:
+  era: new
+  state: trial
+items:
+  - title: 游戏内Manual
+    links:
+      wiki: 附带文档:东方绀珠传体验版/游戏内Manual
+    type:
+      - manual
+  - title: Omake
+    links:
+      wiki: 附带文档:东方绀珠传体验版/Omake
+    type:
+      - omake
+  - title: Readme
+    links:
+      wiki: 附带文档:东方绀珠传体验版/Readme
+    type:
+      - readme
+cover: https://upload.thwiki.cc/thumb/3/37/%E4%B8%9C%E6%96%B9%E7%BB%80%E7%8F%A0%E4%BC%A0%E5%B0%81%E9%9D%A2.jpg/80px-%E4%B8%9C%E6%96%B9%E7%BB%80%E7%8F%A0%E4%BC%A0%E5%B0%81%E9%9D%A2.jpg

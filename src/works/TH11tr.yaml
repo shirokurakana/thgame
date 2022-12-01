@@ -1,0 +1,27 @@
+order: 1101
+code: TH11tr
+title: 东方地灵殿
+suffix: 体验版
+hidden: true
+tags:
+  era: new
+  state: trial
+items:
+  - title: 网页 Manual
+    links:
+      wiki: 附带文档:东方地灵殿体验版/Manual
+      ja: /manual/th11tr/ja/
+      zh: /manual/th11tr/zh/
+    type:
+      - manual
+  - title: Omake
+    links:
+      wiki: 附带文档:东方地灵殿体验版/Omake
+    type:
+      - omake
+  - title: Readme
+    links:
+      wiki: 附带文档:东方地灵殿体验版/Readme
+    type:
+      - readme
+cover: https://upload.thwiki.cc/thumb/7/79/%E4%B8%9C%E6%96%B9%E5%9C%B0%E7%81%B5%E6%AE%BF%E5%B0%81%E9%9D%A2.jpg/80px-%E4%B8%9C%E6%96%B9%E5%9C%B0%E7%81%B5%E6%AE%BF%E5%B0%81%E9%9D%A2.jpg

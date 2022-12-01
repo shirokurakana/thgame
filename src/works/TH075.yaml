@@ -1,0 +1,20 @@
+order: 750
+code: TH075
+title: 东方萃梦想
+suffix: 正式版
+hidden: false
+tags:
+  era: new
+  state: final
+items:
+  - title: 上海爱丽丝通信
+    links:
+      wiki: 附带文档:东方萃梦想/上海爱丽丝通信
+    type:
+      - 其他
+  - title: Readme
+    links:
+      wiki: 附带文档:东方萃梦想/Readme
+    type:
+      - readme
+cover: https://upload.thwiki.cc/thumb/8/87/%E4%B8%9C%E6%96%B9%E8%90%83%E6%A2%A6%E6%83%B3%E5%B0%81%E9%9D%A2.jpg/80px-%E4%B8%9C%E6%96%B9%E8%90%83%E6%A2%A6%E6%83%B3%E5%B0%81%E9%9D%A2.jpg

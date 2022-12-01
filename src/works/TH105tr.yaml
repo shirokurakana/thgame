@@ -1,0 +1,20 @@
+order: 1051
+code: TH105tr
+title: 东方绯想天
+suffix: 体验版
+hidden: true
+tags:
+  era: new
+  state: trial
+items:
+  - title: Readme
+    links:
+      wiki: 附带文档:东方绯想天体验版/Readme
+    type:
+      - readme
+  - title: Readme2
+    links:
+      wiki: 附带文档:东方绯想天体验版/Readme2
+    type:
+      - readme
+cover: https://upload.thwiki.cc/thumb/f/f4/%E4%B8%9C%E6%96%B9%E7%BB%AF%E6%83%B3%E5%A4%A9%E5%B0%81%E9%9D%A2.jpg/80px-%E4%B8%9C%E6%96%B9%E7%BB%AF%E6%83%B3%E5%A4%A9%E5%B0%81%E9%9D%A2.jpg

@@ -1,0 +1,39 @@
+order: 751
+code: TH075tr
+title: 东方萃梦想
+suffix: 体验版
+hidden: true
+tags:
+  era: new
+  state: trial
+items:
+  - title: Readme
+    links:
+      wiki: 附带文档:东方萃梦想动作试验版/Readme
+    type:
+      - readme
+  - title: 网页 Manual
+    links:
+      wiki: 附带文档:东方萃梦想体验版/Manual
+      ja: /manual/th75tr/ja/
+      zh: /manual/th75tr/zh/
+    type:
+      - manual
+  - title: 修正内容
+    links:
+      wiki: 附带文档:东方萃梦想体验版/修正内容
+    type:
+      - 其他
+  - title: 网页 Manual
+    links:
+      wiki: 附带文档:东方萃梦想动作试验版2/Manual
+      ja: /manual/th75w2/ja/
+      zh: /manual/th75w2/zh/
+    type:
+      - manual
+  - title: Manual
+    links:
+      wiki: 附带文档:东方萃梦想WEB体验版/Manual
+    type:
+      - manual
+cover: https://upload.thwiki.cc/thumb/8/87/%E4%B8%9C%E6%96%B9%E8%90%83%E6%A2%A6%E6%83%B3%E5%B0%81%E9%9D%A2.jpg/80px-%E4%B8%9C%E6%96%B9%E8%90%83%E6%A2%A6%E6%83%B3%E5%B0%81%E9%9D%A2.jpg

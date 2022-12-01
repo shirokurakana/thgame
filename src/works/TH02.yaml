@@ -1,0 +1,25 @@
+order: 10200
+code: TH02
+title: 东方封魔录
+suffix: 正式版
+hidden: false
+tags:
+  era: old
+  state: final
+items:
+  - title: 1st
+    links:
+      wiki: 附带文档:东方封魔录/1st
+    type:
+      - 1st
+  - title: Manual
+    links:
+      wiki: 附带文档:东方封魔录/Manual
+    type:
+      - manual
+  - title: Readme
+    links:
+      wiki: 附带文档:东方封魔录/Readme
+    type:
+      - readme
+cover: https://upload.thwiki.cc/thumb/5/50/%E4%B8%9C%E6%96%B9%E5%B0%81%E9%AD%94%E5%BD%95%E5%B0%81%E9%9D%A2%EF%BC%88%E8%A3%81%E5%89%AA%EF%BC%89.jpg/80px-%E4%B8%9C%E6%96%B9%E5%B0%81%E9%AD%94%E5%BD%95%E5%B0%81%E9%9D%A2%EF%BC%88%E8%A3%81%E5%89%AA%EF%BC%89.jpg

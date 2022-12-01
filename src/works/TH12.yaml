@@ -1,0 +1,32 @@
+order: 1200
+code: TH12
+title: 东方星莲船
+suffix: 正式版
+hidden: false
+tags:
+  era: new
+  state: final
+items:
+  - title: 网页 Manual
+    links:
+      wiki: 附带文档:东方星莲船/Manual
+      ja: /manual/th12/ja/
+      zh: /manual/th12/zh/
+    type:
+      - manual
+  - title: Omake
+    links:
+      wiki: 附带文档:东方星莲船/Omake
+    type:
+      - omake
+  - title: Readme
+    links:
+      wiki: 附带文档:东方星莲船/Readme
+    type:
+      - readme
+  - title: 角色设定&ExStory
+    links:
+      wiki: 附带文档:东方星莲船/角色设定&ExStory
+    type:
+      - 角色设定
+cover: https://upload.thwiki.cc/thumb/0/0d/%E4%B8%9C%E6%96%B9%E6%98%9F%E8%8E%B2%E8%88%B9%E5%B0%81%E9%9D%A2.jpg/80px-%E4%B8%9C%E6%96%B9%E6%98%9F%E8%8E%B2%E8%88%B9%E5%B0%81%E9%9D%A2.jpg

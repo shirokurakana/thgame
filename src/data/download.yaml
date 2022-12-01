@@ -1,0 +1,4 @@
+- source: https://cdn.jsdelivr.net/npm/uikit@3.15.14/dist/js/uikit.min.js
+  target: uikit.min.js
+- source: https://cdn.jsdelivr.net/npm/uikit@3.15.14/dist/css/uikit.min.css
+  target: uikit.min.css

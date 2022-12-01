@@ -1,0 +1,25 @@
+order: 1600
+code: TH16
+title: 东方天空璋
+suffix: 正式版
+hidden: false
+tags:
+  era: new
+  state: final
+items:
+  - title: 游戏内Manual
+    links:
+      wiki: 附带文档:东方天空璋/游戏内Manual
+    type:
+      - manual
+  - title: Omake
+    links:
+      wiki: 附带文档:东方天空璋/Omake
+    type:
+      - omake
+  - title: Readme
+    links:
+      wiki: 附带文档:东方天空璋/Readme
+    type:
+      - readme
+cover: https://upload.thwiki.cc/thumb/5/52/%E4%B8%9C%E6%96%B9%E5%A4%A9%E7%A9%BA%E7%92%8B%E5%B0%81%E9%9D%A2.jpg/80px-%E4%B8%9C%E6%96%B9%E5%A4%A9%E7%A9%BA%E7%92%8B%E5%B0%81%E9%9D%A2.jpg

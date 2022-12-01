@@ -1,0 +1,32 @@
+order: 801
+code: TH08tr
+title: 东方永夜抄
+suffix: 体验版
+hidden: true
+tags:
+  era: new
+  state: trial
+items:
+  - title: 网页 Manual
+    links:
+      wiki: 附带文档:东方永夜抄体验版/Manual
+      ja: /manual/th08tr/ja/
+      zh: /manual/th08tr/zh/
+    type:
+      - manual
+  - title: Custom
+    links:
+      wiki: 附带文档:东方永夜抄体验版/Custom
+    type:
+      - custom
+  - title: Omake
+    links:
+      wiki: 附带文档:东方永夜抄体验版/Omake
+    type:
+      - omake
+  - title: Readme
+    links:
+      wiki: 附带文档:东方永夜抄体验版/Readme
+    type:
+      - readme
+cover: https://upload.thwiki.cc/thumb/e/ee/%E4%B8%9C%E6%96%B9%E6%B0%B8%E5%A4%9C%E6%8A%84%E5%B0%81%E9%9D%A2.jpg/80px-%E4%B8%9C%E6%96%B9%E6%B0%B8%E5%A4%9C%E6%8A%84%E5%B0%81%E9%9D%A2.jpg

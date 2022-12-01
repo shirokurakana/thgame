@@ -1,0 +1,25 @@
+order: 1301
+code: TH13tr
+title: 东方神灵庙
+suffix: 体验版
+hidden: true
+tags:
+  era: new
+  state: trial
+items:
+  - title: 游戏内Manual
+    links:
+      wiki: 附带文档:东方神灵庙体验版/游戏内Manual
+    type:
+      - manual
+  - title: Omake
+    links:
+      wiki: 附带文档:东方神灵庙体验版/Omake
+    type:
+      - omake
+  - title: Readme
+    links:
+      wiki: 附带文档:东方神灵庙体验版/Readme
+    type:
+      - readme
+cover: https://upload.thwiki.cc/thumb/7/74/%E4%B8%9C%E6%96%B9%E7%A5%9E%E7%81%B5%E5%BA%99%E5%B0%81%E9%9D%A2.jpg/80px-%E4%B8%9C%E6%96%B9%E7%A5%9E%E7%81%B5%E5%BA%99%E5%B0%81%E9%9D%A2.jpg

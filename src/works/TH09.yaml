@@ -1,0 +1,32 @@
+order: 900
+code: TH09
+title: 东方花映塚
+suffix: 正式版
+hidden: false
+tags:
+  era: new
+  state: final
+items:
+  - title: 网页 Manual
+    links:
+      wiki: 附带文档:东方花映塚/Manual
+      ja: /manual/th09/ja/
+      zh: /manual/th09/zh/
+    type:
+      - manual
+  - title: Omake
+    links:
+      wiki: 附带文档:东方花映塚/Omake
+    type:
+      - omake
+  - title: Readme
+    links:
+      wiki: 附带文档:东方花映塚/Readme
+    type:
+      - readme
+  - title: 角色设定
+    links:
+      wiki: 附带文档:东方花映塚/角色设定
+    type:
+      - 角色设定
+cover: https://upload.thwiki.cc/thumb/6/67/%E4%B8%9C%E6%96%B9%E8%8A%B1%E6%98%A0%E5%A1%9A%E5%B0%81%E9%9D%A2.jpg/80px-%E4%B8%9C%E6%96%B9%E8%8A%B1%E6%98%A0%E5%A1%9A%E5%B0%81%E9%9D%A2.jpg

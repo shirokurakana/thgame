@@ -1,0 +1,15 @@
+order: 1230
+code: TH123
+title: 东方非想天则
+suffix: 正式版
+hidden: false
+tags:
+  era: new
+  state: final
+items:
+  - title: Readme
+    links:
+      wiki: 附带文档:东方非想天则/Readme
+    type:
+      - readme
+cover: https://upload.thwiki.cc/thumb/5/5a/%E4%B8%9C%E6%96%B9%E9%9D%9E%E6%83%B3%E5%A4%A9%E5%88%99%E5%B0%81%E9%9D%A2.jpg/80px-%E4%B8%9C%E6%96%B9%E9%9D%9E%E6%83%B3%E5%A4%A9%E5%88%99%E5%B0%81%E9%9D%A2.jpg

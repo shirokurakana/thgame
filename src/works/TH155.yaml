@@ -1,0 +1,32 @@
+order: 1550
+code: TH155
+title: 东方凭依华
+suffix: 正式版
+hidden: false
+tags:
+  era: new
+  state: final
+items:
+  - title: 网页 manual
+    links:
+      wiki: 东方凭依华/manual
+      ja: /manual/th155/touhou155/manual/
+      zh: /manual/th155/touhou155/manual/
+    type:
+      - manual
+  - title: Omake
+    links:
+      wiki: 附带文档:东方凭依华/Omake
+    type:
+      - omake
+  - title: history
+    links:
+      wiki: 附带文档:东方凭依华/history
+    type:
+      - history
+  - title: history beta
+    links:
+      wiki: 附带文档:东方凭依华/history beta
+    type:
+      - history
+cover: https://upload.thwiki.cc/thumb/7/7b/%E4%B8%9C%E6%96%B9%E5%87%AD%E4%BE%9D%E5%8D%8E%E5%B0%81%E9%9D%A2.jpg/80px-%E4%B8%9C%E6%96%B9%E5%87%AD%E4%BE%9D%E5%8D%8E%E5%B0%81%E9%9D%A2.jpg

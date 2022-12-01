@@ -1,0 +1,32 @@
+order: 1000
+code: TH10
+title: 东方风神录
+suffix: 正式版
+hidden: false
+tags:
+  era: new
+  state: final
+items:
+  - title: 网页 Manual
+    links:
+      wiki: 附带文档:东方风神录/Manual
+      ja: /manual/th10/ja/
+      zh: /manual/th10/zh/
+    type:
+      - manual
+  - title: Omake
+    links:
+      wiki: 附带文档:东方风神录/Omake
+    type:
+      - omake
+  - title: Readme
+    links:
+      wiki: 附带文档:东方风神录/Readme
+    type:
+      - readme
+  - title: 角色设定
+    links:
+      wiki: 附带文档:东方风神录/角色设定
+    type:
+      - 角色设定
+cover: https://upload.thwiki.cc/thumb/4/49/%E4%B8%9C%E6%96%B9%E9%A3%8E%E7%A5%9E%E5%BD%95%E5%B0%81%E9%9D%A2.jpg/80px-%E4%B8%9C%E6%96%B9%E9%A3%8E%E7%A5%9E%E5%BD%95%E5%B0%81%E9%9D%A2.jpg

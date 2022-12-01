@@ -1,0 +1,32 @@
+order: 701
+code: TH07tr
+title: 东方妖妖梦
+suffix: 体验版
+hidden: true
+tags:
+  era: new
+  state: trial
+items:
+  - title: 网页 Manual
+    links:
+      wiki: 附带文档:东方妖妖梦体验版/Manual
+      ja: /manual/th07tr/ja/
+      zh: /manual/th07tr/zh/
+    type:
+      - manual
+  - title: Custom
+    links:
+      wiki: 附带文档:东方妖妖梦体验版/Custom
+    type:
+      - custom
+  - title: Omake
+    links:
+      wiki: 附带文档:东方妖妖梦体验版/Omake
+    type:
+      - omake
+  - title: Readme
+    links:
+      wiki: 附带文档:东方妖妖梦体验版/Readme
+    type:
+      - readme
+cover: https://upload.thwiki.cc/thumb/a/a7/%E4%B8%9C%E6%96%B9%E5%A6%96%E5%A6%96%E6%A2%A6%E5%B0%81%E9%9D%A2.jpg/80px-%E4%B8%9C%E6%96%B9%E5%A6%96%E5%A6%96%E6%A2%A6%E5%B0%81%E9%9D%A2.jpg

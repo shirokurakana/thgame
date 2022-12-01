@@ -1,0 +1,25 @@
+order: 10501
+code: TH05tr
+title: 东方怪绮谈
+suffix: 体验版
+hidden: true
+tags:
+  era: old
+  state: trial
+items:
+  - title: Readme
+    links:
+      wiki: 附带文档:东方怪绮谈/Readme
+    type:
+      - readme
+  - title: Manual
+    links:
+      wiki: 附带文档:东方怪绮谈体验版/Manual
+    type:
+      - manual
+  - title: Taiken
+    links:
+      wiki: 附带文档:东方怪绮谈体验版/Taiken
+    type:
+      - taiken
+cover: https://upload.thwiki.cc/thumb/8/8f/%E4%B8%9C%E6%96%B9%E6%80%AA%E7%BB%AE%E8%B0%88%E5%B0%81%E9%9D%A2%EF%BC%88%E8%A3%81%E5%89%AA%EF%BC%89.jpg/80px-%E4%B8%9C%E6%96%B9%E6%80%AA%E7%BB%AE%E8%B0%88%E5%B0%81%E9%9D%A2%EF%BC%88%E8%A3%81%E5%89%AA%EF%BC%89.jpg

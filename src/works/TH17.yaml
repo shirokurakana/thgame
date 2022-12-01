@@ -1,0 +1,25 @@
+order: 1700
+code: TH17
+title: 东方鬼形兽
+suffix: 正式版
+hidden: false
+tags:
+  era: new
+  state: final
+items:
+  - title: 游戏内Manual
+    links:
+      wiki: 附带文档:东方鬼形兽/游戏内Manual
+    type:
+      - manual
+  - title: Omake
+    links:
+      wiki: 附带文档:东方鬼形兽/Omake
+    type:
+      - omake
+  - title: Readme
+    links:
+      wiki: 附带文档:东方鬼形兽/Readme
+    type:
+      - readme
+cover: https://upload.thwiki.cc/thumb/9/99/%E4%B8%9C%E6%96%B9%E9%AC%BC%E5%BD%A2%E5%85%BD%E5%B0%81%E9%9D%A2.jpg/80px-%E4%B8%9C%E6%96%B9%E9%AC%BC%E5%BD%A2%E5%85%BD%E5%B0%81%E9%9D%A2.jpg

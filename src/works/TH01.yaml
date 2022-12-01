@@ -1,0 +1,20 @@
+order: 10100
+code: TH01
+title: 东方灵异传
+suffix: 正式版
+hidden: false
+tags:
+  era: old
+  state: final
+items:
+  - title: 1st
+    links:
+      wiki: 附带文档:东方灵异传/1st
+    type:
+      - 1st
+  - title: Manual
+    links:
+      wiki: 附带文档:东方灵异传/Manual
+    type:
+      - manual
+cover: https://upload.thwiki.cc/thumb/9/97/%E4%B8%9C%E6%96%B9%E7%81%B5%E5%BC%82%E4%BC%A0%E5%B0%81%E9%9D%A2%EF%BC%88%E8%A3%81%E5%89%AA%EF%BC%89.jpg/80px-%E4%B8%9C%E6%96%B9%E7%81%B5%E5%BC%82%E4%BC%A0%E5%B0%81%E9%9D%A2%EF%BC%88%E8%A3%81%E5%89%AA%EF%BC%89.jpg
