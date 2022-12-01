@@ -9,9 +9,8 @@
 			"headers": [{ "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }]
 		},
 		{
-			"source": "/(.*)\\.(jpg|jpeg|gif|png|ico|cur|svg|svgz)",
+			"source": "/(.*)\\.(css|js|jpg|jpeg|gif|png|ico|cur|svg|svgz)",
 			"headers": [{ "key": "Cache-Control", "value": "public, max-age=2592000, s-maxage=2592000" }]
 		}
-	],
-	"trailingSlash": false
+	]
 }
