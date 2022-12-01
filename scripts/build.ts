@@ -126,14 +126,14 @@ for (const work of works) {
 	}
 }
 
-// build index
+console.log("build index");
 const indexHtml = nunjucks.render(SOURCE_ROOT + "/index.html.njk", {
 	works,
 	types,
 });
 await fs.writeFile(path.join(SITE_ROOT, "index.html"), indexHtml, { encoding: "utf8" });
 
-// fetch translations
+console.log("fetch translations");
 await Promise.all(
 	translates.map(async (translate) => {
 		const html = await (await fetch(translate.src)).text();
@@ -151,16 +151,16 @@ await Promise.all(
 	})
 );
 
-// fetch downloads
+console.log("fetch downloads");
 for (const chunk of chunks(downloads, 5)) {
 	await Promise.all(chunk.map(async ({ source, target }) => await fs.writeFile(path.join(SITE_ROOT, target), await download(source))));
 }
 
-// download manuals if needed
+console.log("download manuals if needed");
 const manualZip = path.join(SOURCE_ROOT, "manual.zip");
 if (!existsSync(manualZip)) {
 	await fs.writeFile(manualZip, await download("https://upload.thwiki.cc/upload/manual.zip"));
 }
 
-// extract manuals
+console.log("extract manuals");
 await extract(manualZip, { dir: path.resolve(path.join(SITE_ROOT, MANUAL_ROOT)) });
