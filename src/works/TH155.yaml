@@ -10,8 +10,8 @@ items:
   - title: 网页 manual
     links:
       wiki: 东方凭依华/manual
-      ja: /manual/th155/touhou155/manual/
-      zh: /manual/th155/touhou155/manual/
+      ja: /manual/th155/ja/touhou155/manual/
+      zh: /manual/th155/zh/touhou155/manual/
     type:
       - manual
   - title: Omake

@@ -3,7 +3,6 @@ import { JSDOM } from "jsdom";
 import YAML from "yaml";
 import nunjucks from "nunjucks";
 import fs from "fs/promises";
-import { existsSync } from "fs";
 import path from "path";
 import del from "del";
 import makeDir from "make-dir";
@@ -68,6 +67,7 @@ const SOURCE_ROOT = "src";
 const STATIC_ROOT = SOURCE_ROOT + "/static";
 const DATA_ROOT = SOURCE_ROOT + "/data";
 const WORKS_ROOT = SOURCE_ROOT + "/works";
+const MANUALZIP_ROOT = SOURCE_ROOT + "/manual";
 const COVER_ROOT = "/cover";
 const MANUAL_ROOT = "/manual";
 const TRANSLATE_ROOT = "/translate";
@@ -82,7 +82,7 @@ await cpy(STATIC_ROOT + "/**", SITE_ROOT);
 
 const works: Work[] = [];
 for (const name of await fs.readdir(WORKS_ROOT, { encoding: "utf-8" })) {
-	if (name.endsWith("yaml")) {
+	if (name.endsWith(".yaml")) {
 		const work: Work = await readYAMLFile(path.join(WORKS_ROOT, name));
 
 		work.tags.type = work.items.flatMap((item) => item.type).filter((v, i, a) => a.indexOf(v) === i);
@@ -126,12 +126,21 @@ for (const work of works) {
 	}
 }
 
-console.log("build index");
-const indexHtml = nunjucks.render(SOURCE_ROOT + "/index.html.njk", {
+nunjucks.configure(SOURCE_ROOT + "/");
+
+console.log("build index page");
+const indexHtml = nunjucks.render("index.html.njk", {
 	works,
 	types,
 });
 await fs.writeFile(path.join(SITE_ROOT, "index.html"), indexHtml, { encoding: "utf8" });
+
+console.log("build not found page");
+const notFoundHtml = nunjucks.render("404.html.njk", {
+	works,
+	types,
+});
+await fs.writeFile(path.join(SITE_ROOT, "404.html"), notFoundHtml, { encoding: "utf8" });
 
 console.log("fetch translations");
 await Promise.all(
@@ -156,11 +165,9 @@ for (const chunk of chunks(downloads, 5)) {
 	await Promise.all(chunk.map(async ({ source, target }) => await fs.writeFile(path.join(SITE_ROOT, target), await download(source))));
 }
 
-console.log("download manuals if needed");
-const manualZip = path.join(SOURCE_ROOT, "manual.zip");
-if (!existsSync(manualZip)) {
-	await fs.writeFile(manualZip, await download("https://upload.thwiki.cc/upload/manual.zip"));
-}
-
 console.log("extract manuals");
-await extract(manualZip, { dir: path.resolve(path.join(SITE_ROOT, MANUAL_ROOT)) });
+for (const name of await fs.readdir(MANUALZIP_ROOT, { encoding: "utf-8" })) {
+	if (name.endsWith(".zip")) {
+		await extract(path.join(MANUALZIP_ROOT, name), { dir: path.resolve(path.join(SITE_ROOT, MANUAL_ROOT)) });
+	}
+}
