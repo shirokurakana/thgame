@@ -101,7 +101,7 @@ for (const work of works) {
 		const extension = path.extname(work.cover);
 		cover = {
 			source: work.cover,
-			target: `${COVER_ROOT}/${work.code}.${extension}`,
+			target: `${COVER_ROOT}/${work.code}${extension}`,
 		};
 		downloads.push(cover);
 	}

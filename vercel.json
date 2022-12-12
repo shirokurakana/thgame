@@ -3,6 +3,12 @@
 	"github": {
 		"silent": true
 	},
+	"redirects": [
+		{
+			"source": "/translate.php(.*)",
+			"destination": "/"
+		}
+	],
 	"headers": [
 		{
 			"source": "/(.*)\\.(html|txt)",
