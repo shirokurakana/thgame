@@ -3,12 +3,13 @@
 	"github": {
 		"silent": true
 	},
-	"redirects": [
+	"rewrites": [
 		{
 			"source": "/:path((?:favicon|android-chrome-192x192|android-chrome-512x512|apple-touch-icon)[.](?:png|ico))",
-			"destination": "https://static.thwiki.cc/:path",
-			"permanent": true
-		},
+			"destination": "https://static.thwiki.cc/:path"
+		}
+	],
+	"redirects": [
 		{
 			"source": "/translate.php(.*)",
 			"destination": "/"
