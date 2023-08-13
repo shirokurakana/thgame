@@ -1,0 +1,25 @@
+order: 1901
+code: TH19tr
+title: 东方兽王园
+suffix: 体验版
+hidden: true
+tags:
+  era: new
+  state: trial
+items:
+  - title: 游戏内Manual
+    links:
+      wiki: 附带文档:东方兽王园体验版/游戏内Manual
+    type:
+      - manual
+  - title: Omake
+    links:
+      wiki: 附带文档:东方兽王园体验版/Omake
+    type:
+      - omake
+  - title: Readme
+    links:
+      wiki: 附带文档:东方兽王园体验版/Readme
+    type:
+      - readme
+cover: https://upload.thwiki.cc/thumb/b/bd/%E4%B8%9C%E6%96%B9%E5%85%BD%E7%8E%8B%E5%9B%AD%E5%B0%81%E9%9D%A2.png/80px-%E4%B8%9C%E6%96%B9%E5%85%BD%E7%8E%8B%E5%9B%AD%E5%B0%81%E9%9D%A2.png
