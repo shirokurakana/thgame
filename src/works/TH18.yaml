@@ -1,25 +1,50 @@
 order: 1800
 code: TH18
 title: 东方虹龙洞
-suffix: 正式版
-hidden: false
 tags:
-  era: new
-  state: final
+  era: zun
 items:
-  - title: 游戏内Manual
+  - title: 囧仙子通贩
     links:
-      wiki: 附带文档:东方虹龙洞/游戏内Manual
-    type:
-      - manual
-  - title: Omake
+      wiki: 东方虹龙洞
+      src: https://toho.moe/masaTH19
+    type: 
+      - 游戏本体
+    site:
+      - 囧仙子通贩
+  - title: Steam
     links:
-      wiki: 附带文档:东方虹龙洞/Omake
-    type:
-      - omake
-  - title: Readme
+      wiki: 东方虹龙洞
+      src: https://store.steampowered.com/app/1566410/
+    type: 
+      - 游戏本体
+    site:
+      - steam
+  - title: DL Site
     links:
-      wiki: 附带文档:东方虹龙洞/Readme
+      wiki: 东方虹龙洞
+      src: http://www.dlsite.com/home/work/=/product_id/RJ324742/
+    type: 
+      - 游戏本体
+    site:
+      - dlsite
+  - title: DMM Games
+    links:
+      wiki: 东方虹龙洞
+      src: https://dlsoft.dmm.com/detail/shanghaialice_0008
+    type: 
+      - 游戏本体
+    site:
+      - dmm
+  - title: 喵玉汉化补丁
+    links:
+      wiki: 东方虹龙洞
+      src: https://bbs.nyasama.com/forum.php?mod=viewthread&tid=1845257
     type:
-      - readme
-cover: https://upload.thwiki.cc/thumb/4/48/%E4%B8%9C%E6%96%B9%E8%99%B9%E9%BE%99%E6%B4%9E%E5%B0%81%E9%9D%A2.jpg/80px-%E4%B8%9C%E6%96%B9%E8%99%B9%E9%BE%99%E6%B4%9E%E5%B0%81%E9%9D%A2.jpg
+      - 喵玉汉化
+    site:
+      - 囧仙子通贩
+      - steam
+      - dlsite
+      - dmm
+cover: https://upload.thwiki.cc/thumb/b/b2/%E4%B8%9C%E6%96%B9%E7%BA%A2%E9%AD%94%E4%B9%A1%E5%B0%81%E9%9D%A2.jpg/80px-%E4%B8%9C%E6%96%B9%E7%BA%A2%E9%AD%94%E4%B9%A1%E5%B0%81%E9%9D%A2.jpg

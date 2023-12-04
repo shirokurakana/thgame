@@ -1,25 +1,41 @@
 order: 1700
 code: TH17
 title: 东方鬼形兽
-suffix: 正式版
-hidden: false
 tags:
-  era: new
-  state: final
+  era: zun
 items:
-  - title: 游戏内Manual
+  - title: Steam
     links:
-      wiki: 附带文档:东方鬼形兽/游戏内Manual
-    type:
-      - manual
-  - title: Omake
+      wiki: 东方鬼形兽
+      src: https://store.steampowered.com/app/1079160
+    type: 
+      - 游戏本体
+    site:
+      - steam
+  - title: DL Site
     links:
-      wiki: 附带文档:东方鬼形兽/Omake
-    type:
-      - omake
-  - title: Readme
+      wiki: 东方鬼形兽
+      src: http://www.dlsite.com/home/work/=/product_id/RJ254866/
+    type: 
+      - 游戏本体
+    site:
+      - dlsite
+  - title: DMM Games
     links:
-      wiki: 附带文档:东方鬼形兽/Readme
+      wiki: 东方鬼形兽
+      src: https://dlsoft.dmm.com/detail/shanghaialice_0007
+    type: 
+      - 游戏本体
+    site:
+      - dmm
+  - title: 喵玉汉化补丁
+    links:
+      wiki: 东方鬼形兽
+      src: https://bbs.nyasama.com/forum.php?mod=viewthread&tid=1841112
     type:
-      - readme
-cover: https://upload.thwiki.cc/thumb/9/99/%E4%B8%9C%E6%96%B9%E9%AC%BC%E5%BD%A2%E5%85%BD%E5%B0%81%E9%9D%A2.jpg/80px-%E4%B8%9C%E6%96%B9%E9%AC%BC%E5%BD%A2%E5%85%BD%E5%B0%81%E9%9D%A2.jpg
+      - 喵玉汉化
+    site:
+      - steam
+      - dlsite
+      - dmm
+cover: https://upload.thwiki.cc/thumb/b/b2/%E4%B8%9C%E6%96%B9%E7%BA%A2%E9%AD%94%E4%B9%A1%E5%B0%81%E9%9D%A2.jpg/80px-%E4%B8%9C%E6%96%B9%E7%BA%A2%E9%AD%94%E4%B9%A1%E5%B0%81%E9%9D%A2.jpg

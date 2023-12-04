@@ -2,16 +2,16 @@
 <html lang="zh">
 	<head>
 		<meta charset="UTF-8" />
-		<title>东方Project 附带文档总览页 - THBWiki</title>
+		<title>东方Project 官方游戏总览页 - THBWiki</title>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 		<meta name="Author" content="THBWiki" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
-		<meta property="og:title" itemprop="name" content="东方Project 附带文档总览页 - THBWiki" />
+		<meta property="og:title" itemprop="name" content="东方Project 官方游戏总览页 - THBWiki" />
 		<meta property="og:type" content="website" />
-		<meta property="og:description" itemprop="description" content="本页面汇总整理 东方Project 官方游戏的附带文档" />
+		<meta property="og:description" itemprop="description" content="本页面汇总整理 东方Project 官方游戏相关资源" />
 		<meta property="og:image" itemprop="image" content="https://omake.thwiki.cc/og-image.png" />
 		<meta property="og:url" content="https://omake.thwiki.cc" />
-		<meta property="og:site_name" content="东方Project 附带文档总览页 - THBWiki" />
+		<meta property="og:site_name" content="东方Project 官方游戏总览页 - THBWiki" />
 		<link rel="stylesheet" href="/uikit.min.css" />
 		<script src="/uikit.min.js"></script>
 	</head>
@@ -21,9 +21,9 @@
 		<div class="uk-container uk-container-center uk-margin-medium-top uk-margin-large-bottom">
 			<div uk-grid data-uk-grid-margin>
 				<div class="uk-width-1-1">
-					<h1 class="uk-heading-small">东方Project 附带文档总览页</h1>
+					<h1 class="uk-heading-small">东方Project 官方游戏总览页</h1>
 					<ul>
-						<li>本页面汇总整理 东方Project 官方游戏的附带文档。</li>
+						<li>本页面汇总整理 东方Project 官方游戏的相关资源。</li>
 						<li>游戏内容请参见<a href="https://thwiki.cc/%E5%AE%98%E6%96%B9%E6%B8%B8%E6%88%8F" target="_blank">官方游戏</a>词条。</li>
 					</ul>
 				</div>
@@ -34,20 +34,23 @@
 					<div uk-filter="target: .js-filter">
 						<div class="uk-background-muted uk-padding-small uk-margin uk-panel">
 							<ul class="uk-subnav uk-subnav-pill">
-								<li uk-filter-control="filter: [data-hidden='show']; group: state"><a href="#">全部</a></li>
-								<li class="uk-active" uk-filter-control="filter: [data-state='final']; group: state"><a href="#">正式版</a></li>
-								<li uk-filter-control="filter: [data-state='trial']; group: state"><a href="#">体验版</a></li>
-							</ul>
-							<ul class="uk-subnav uk-subnav-pill">
 								<li class="uk-active" uk-filter-control="group: era"><a href="#">全部</a></li>
-								<li uk-filter-control="filter: [data-era='new']; group: era"><a href="#">新作</a></li>
-								<li uk-filter-control="filter: [data-era='old']; group: era"><a href="#">旧作</a></li>
+								<li uk-filter-control="filter: [data-era='zun']; group: era"><a href="#">zun作</a></li>
+								<li uk-filter-control="filter: [data-era='taso']; group: era"><a href="#">黄昏作</a></li>
 							</ul>
 							<ul class="uk-subnav uk-subnav-pill">
 								<li class="uk-active" uk-filter-control="group: type"><a href="#">全部</a></li>
 								{% for type in types %}
 								<li uk-filter-control="filter: [data-type~='{{ type }}']; group: type">
 									<a href="#">{{ type }}</a>
+								</li>
+								{% endfor %}
+							</ul>
+							<ul class="uk-subnav uk-subnav-pill">
+								<li class="uk-active" uk-filter-control="group: site"><a href="#">全部</a></li>
+								{% for site in sites %}
+								<li uk-filter-control="filter: [data-site~='{{ site }}']; group: site">
+									<a href="#">{{ site }}</a>
 								</li>
 								{% endfor %}
 							</ul>
@@ -58,10 +61,9 @@
 							<li
 								id="{{ work.code }}"
 								class="uk-width-1-1"
-								data-hidden="{% if work.hidden %}hidden{% else %}show{% endif %}"
-								data-state="{{ work.tags.state }}"
-								data-era="{{ work.tags.era }}"
 								data-type="{{ work.tags.type | join(' ') }}"
+								data-era="{{ work.tags.era }}"
+								data-site="{{ work.tags.site | join(' ') }}"
 							>
 								<div class="uk-card uk-card-small">
 									<div class="uk-card-header">
@@ -70,8 +72,8 @@
 								</div>
 							</li>
 							{% for item in work.items %}
-							<li data-hidden="show" data-state="{{ work.tags.state }}" data-era="{{ work.tags.era }}" data-type="{{ item.type | join(' ') }}">
-								<div class="uk-card uk-card-small {% if work.hidden %}uk-card-secondary{% else %}uk-card-default{% endif %}">
+							<li data-type="{{ item.type | join(' ') }}" data-era="{{ work.tags.era }}" data-site="{{ item.site | join(' ') }}">
+								<div class="uk-card uk-card-small uk-card-default">
 									<div class="uk-card-header">
 										<div class="uk-grid-small uk-flex-middle" uk-grid>
 											{% if work.cover %}
@@ -83,13 +85,13 @@
 												<h4 class="uk-margin-remove-bottom">
 													<a href="https://thwiki.cc/{{ item.links.wiki }}" target="_blank">{{ item.title }}</a>
 												</h4>
-												<p class="uk-text-meta uk-margin-remove-top">{{ work.title }} {{ work.suffix }}</p>
+												<p class="uk-text-meta uk-margin-remove-top">{{ work.title }} {{ item.type }}</p>
 											</div>
 										</div>
 									</div>
 									<div class="uk-card-body">
-										<a href="{{ item.links.ja }}" class="uk-button uk-button-small uk-button-default" target="_blank">日文</a>
-										<a href="{{ item.links.zh }}" class="uk-button uk-button-small uk-button-default" target="_blank">中文</a>
+										<a href="{{ item.links.src }}" class="uk-button uk-button-small uk-button-default" target="_blank">发布页</a>
+										<a href="{{ item.links.down }}" class="uk-button uk-button-small uk-button-default" target="_blank">下载页</a>
 									</div>
 								</div>
 							</li>
@@ -101,11 +103,11 @@
 					<div class="uk-panel uk-panel-box" data-uk-sticky>
 						<ul class="uk-nav uk-nav-side uk-nav-default" data-uk-scrollspy-nav="closest: li; smoothscroll: true">
 							<li class="uk-nav-header">目录</li>
-							{% for work in works %}{% if work.hidden %}{% else %}
+							{% for work in works %}
 							<li>
 								<a href="#{{ work.code }}">{{ work.code }} {{ work.title }}</a>
 							</li>
-							{% endif %}{% endfor %}
+							{% endfor %}
 						</ul>
 					</div>
 				</div>
