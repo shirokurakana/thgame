@@ -1,5 +1,5 @@
 {
-	"name": "omake",
+	"name": "thgame",
 	"version": "1.0.0",
 	"description": "",
 	"type": "module",
@@ -12,12 +12,12 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/thwiki/omake.git"
+		"url": "git+https://github.com/shirokurakana/thgame.git"
 	},
-	"author": "arumi@thwiki.cc",
+	"author": "admin@thdog.moe",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/thwiki/omake/issues"
+		"url": "https://github.com/shirokurakana/thgame/issues"
 	},
 	"dependencies": {
 		"cpy": "^9.0.1",
