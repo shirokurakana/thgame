@@ -9,7 +9,7 @@ items:
       wiki: 东方鬼形兽
       src: https://store.steampowered.com/app/1079160
     type: 
-      - 游戏本体
+      - 数字版游戏
     site:
       - steam
   - title: DL Site
@@ -17,7 +17,7 @@ items:
       wiki: 东方鬼形兽
       src: http://www.dlsite.com/home/work/=/product_id/RJ254866/
     type: 
-      - 游戏本体
+      - 数字版游戏
     site:
       - dlsite
   - title: DMM Games
@@ -25,15 +25,15 @@ items:
       wiki: 东方鬼形兽
       src: https://dlsoft.dmm.com/detail/shanghaialice_0007
     type: 
-      - 游戏本体
+      - 数字版游戏
     site:
       - dmm
-  - title: 喵玉汉化补丁
+  - title: 喵玉汉化
     links:
       wiki: 东方鬼形兽
       src: https://bbs.nyasama.com/forum.php?mod=viewthread&tid=1841112
     type:
-      - 喵玉汉化
+      - 喵玉汉补
     site:
       - steam
       - dlsite

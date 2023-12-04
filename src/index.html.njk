@@ -83,15 +83,17 @@
 											{% endif %}
 											<div class="uk-width-expand">
 												<h4 class="uk-margin-remove-bottom">
-													<a href="https://thwiki.cc/{{ item.links.wiki }}" target="_blank">{{ item.title }}</a>
+													<a href="{{ item.links.src }}" target="_blank">{{ item.title }}</a>
 												</h4>
-												<p class="uk-text-meta uk-margin-remove-top">{{ work.title }} {{ item.type }}</p>
+												<p class="uk-text-meta uk-margin-remove-top">{{ work.title }} {{ item.type | join(' ') }}</p>
 											</div>
 										</div>
 									</div>
 									<div class="uk-card-body">
-										<a href="{{ item.links.src }}" class="uk-button uk-button-small uk-button-default" target="_blank">发布页</a>
+										<a href="https://thwiki.cc/{{ item.links.wiki }}" class="uk-button uk-button-small uk-button-default" target="_blank">Wiki页</a>
+										{% if item.links.down %}
 										<a href="{{ item.links.down }}" class="uk-button uk-button-small uk-button-default" target="_blank">下载页</a>
+										{% endif %}
 									</div>
 								</div>
 							</li>

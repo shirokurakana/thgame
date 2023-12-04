@@ -9,7 +9,7 @@ items:
       wiki: 东方虹龙洞
       src: https://toho.moe/masaTH19
     type: 
-      - 游戏本体
+      - 实体版游戏
     site:
       - 囧仙子通贩
   - title: Steam
@@ -17,7 +17,7 @@ items:
       wiki: 东方虹龙洞
       src: https://store.steampowered.com/app/1566410/
     type: 
-      - 游戏本体
+      - 数字版游戏
     site:
       - steam
   - title: DL Site
@@ -25,7 +25,7 @@ items:
       wiki: 东方虹龙洞
       src: http://www.dlsite.com/home/work/=/product_id/RJ324742/
     type: 
-      - 游戏本体
+      - 数字版游戏
     site:
       - dlsite
   - title: DMM Games
@@ -33,15 +33,15 @@ items:
       wiki: 东方虹龙洞
       src: https://dlsoft.dmm.com/detail/shanghaialice_0008
     type: 
-      - 游戏本体
+      - 数字版游戏
     site:
       - dmm
-  - title: 喵玉汉化补丁
+  - title: 喵玉汉化
     links:
       wiki: 东方虹龙洞
       src: https://bbs.nyasama.com/forum.php?mod=viewthread&tid=1845257
     type:
-      - 喵玉汉化
+      - 喵玉汉补
     site:
       - 囧仙子通贩
       - steam
