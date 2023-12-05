@@ -6,7 +6,6 @@ tags:
 items:
   - title: Steam
     links:
-      wiki: 弹幕狂们的黑市
       src: https://store.steampowered.com/app/1566410/
     type: 
       - 数字版游戏
@@ -14,7 +13,6 @@ items:
       - STEAM
   - title: DL Site
     links:
-      wiki: 弹幕狂们的黑市
       src: http://www.dlsite.com/home/work/=/product_id/RJ324742/
     type: 
       - 数字版游戏
@@ -22,7 +20,6 @@ items:
       - DL SITE
   - title: DMM Games
     links:
-      wiki: 弹幕狂们的黑市
       src: https://dlsoft.dmm.com/detail/shanghaialice_0008
     type: 
       - 数字版游戏
@@ -32,6 +29,7 @@ items:
     links:
       src: https://bbs.nyasama.com/forum.php?mod=viewthread&tid=1845257
       down: https://pan.baidu.com/s/1Drn0uvdQTjbp2wfncKuNQQ?pwd=thcn
+      downtype: 百度云
       pass: thcn
     type:
       - 简中汉补

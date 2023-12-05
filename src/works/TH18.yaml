@@ -6,7 +6,6 @@ tags:
 items:
   - title: Steam
     links:
-      wiki: 东方虹龙洞
       src: https://store.steampowered.com/app/1566410/
     type: 
       - 数字版游戏
@@ -14,7 +13,6 @@ items:
       - STEAM
   - title: DL Site
     links:
-      wiki: 东方虹龙洞
       src: http://www.dlsite.com/home/work/=/product_id/RJ324742/
     type: 
       - 数字版游戏
@@ -22,7 +20,6 @@ items:
       - DL SITE
   - title: DMM Games
     links:
-      wiki: 东方虹龙洞
       src: https://dlsoft.dmm.com/detail/shanghaialice_0008
     type: 
       - 数字版游戏
@@ -30,7 +27,6 @@ items:
       - DMM GAMES
   - title: 魔法集市
     links:
-      wiki: 东方虹龙洞
       src: https://mall.masadora.jp/product/PQRZ312YRN
     type: 
       - 实体版游戏
@@ -40,6 +36,7 @@ items:
     links:
       src: https://bbs.nyasama.com/forum.php?mod=viewthread&tid=1845257
       down: https://pan.baidu.com/s/1sOdommt2btS44fFgc-4KZw?pwd=hcvq
+      downtype: 百度云
       pass: hcvq
     type:
       - 简中汉补

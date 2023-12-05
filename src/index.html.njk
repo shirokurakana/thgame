@@ -67,7 +67,9 @@
 							>
 								<div class="uk-card uk-card-small">
 									<div class="uk-card-header">
-										<h3 class="uk-card-title">{{ work.code }} {{ work.title }}</h3>
+										<h3 class="uk-card-title">
+											<a href="https://thwiki.cc/{{ work.wiki }}" target="_blank">{{ work.code }} {{ work.title }}</a>
+										</h3>
 									</div>
 								</div>
 							</li>
@@ -83,18 +85,18 @@
 											{% endif %}
 											<div class="uk-width-expand">
 												<h4 class="uk-margin-remove-bottom">
-													<a href="{{ item.links.src }}" target="_blank">{{ item.title }}</a>
+													{{ item.title }}
 												</h4>
 												<p class="uk-text-meta uk-margin-remove-top">{{ work.title }} {{ item.type[0] }}</p>
 											</div>
 										</div>
 									</div>
 									<div class="uk-card-body">
-										{% if item.links.wiki %}
-										<a href="https://thwiki.cc/{{ item.links.wiki }}" class="uk-button uk-button-small uk-button-default" target="_blank">Wiki页</a>
+										{% if item.links.src %}
+										<a href="{{ item.links.src }}" class="uk-button uk-button-small uk-button-default" target="_blank">发布页</a>
 										{% endif %}
 										{% if item.links.down %}
-										<a href="{{ item.links.down }}" class="uk-button uk-button-small uk-button-default" target="_blank">提取码: {{ item.links.pass }}</a>
+										<a href="{{ item.links.down }}" class="uk-button uk-button-small uk-button-default" target="_blank">{{ item.links.downtype }}{% if item.links.pass %}: {{ item.links.pass }}{% endif %}</a>
 										{% endif %}
 									</div>
 								</div>

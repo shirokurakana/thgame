@@ -14,6 +14,7 @@ interface Work {
 	order: number;
 	code: string;
 	title: string;
+	wiki: string;
 	// suffix: string;
 	cover: string;
 	// hidden: boolean;
@@ -29,9 +30,9 @@ interface Item {
 }
 
 interface Links {
-	wiki: string;
 	src?: true | string;
 	down?: true | string;
+	downtype?: true | string;
 	pass?: true | string;
 }
 
@@ -105,6 +106,12 @@ for (const work of works) {
 		downloads.push(cover);
 	}
 	work.cover = cover.target;
+
+	const safeName = work.title
+		.replace(/^.+:/, "")
+		.replace(/[:\/\s&]+/g, "_")
+		.toLowerCase();
+	work.wiki = safeName
 
 	// for (const item of work.items) {
 	// 	const safeName = item.links.wiki

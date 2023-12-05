@@ -6,7 +6,6 @@ tags:
 items:
   - title: Steam
     links:
-      wiki: 东方兽王园
       src: https://store.steampowered.com/app/2400340/
     type: 
       - 数字版游戏
@@ -14,7 +13,6 @@ items:
       - STEAM
   - title: DL Site
     links:
-      wiki: 东方兽王园
       src: http://www.dlsite.com/home/work/=/product_id/RJ01086206/
     type: 
       - 数字版游戏
@@ -22,7 +20,6 @@ items:
       - DL SITE
   - title: 魔法集市
     links:
-      wiki: 东方兽王园
       src: https://mall.masadora.jp/product/PTRLX2W8RX
     type: 
       - 实体版游戏

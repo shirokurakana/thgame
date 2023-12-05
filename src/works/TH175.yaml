@@ -6,7 +6,6 @@ tags:
 items:
   - title: Steam
     links:
-      wiki: 东方刚欲异闻
       src: https://store.steampowered.com/app/1440500
     type: 
       - 数字版游戏
@@ -14,7 +13,6 @@ items:
       - STEAM
   - title: 蜜瓜
     links:
-      wiki: 东方刚欲异闻
       src: https://www.melonbooks.co.jp/detail/detail.php?product_id=1136685
     type: 
       - 实体版游戏
@@ -22,7 +20,6 @@ items:
       - 网购实体游戏
   - title: 虎穴
     links:
-      wiki: 东方刚欲异闻
       src: https://ec.toranoana.jp/tora_r/ec/item/040030943351
     type: 
       - 实体版游戏
@@ -30,7 +27,6 @@ items:
       - 网购实体游戏
   - title: Akibaoo
     links:
-      wiki: 东方刚欲异闻
       src: http://www.akibaoo.com/c/item/2600020043339/
     type: 
       - 实体版游戏
@@ -38,7 +34,6 @@ items:
       - 网购实体游戏
   - title: Animate
     links:
-      wiki: 东方刚欲异闻
       src: http://www.animate-onlineshop.jp/pd/2009961/
     type: 
       - 实体版游戏
@@ -46,7 +41,6 @@ items:
       - 网购实体游戏
   - title: AkibaHOBBY
     links:
-      wiki: 东方刚欲异闻
       src: https://shop.akbh.jp/products/2100000125784
     type: 
       - 实体版游戏
@@ -54,7 +48,6 @@ items:
       - 网购实体游戏
   - title: Grep（新）
     links:
-      wiki: 东方刚欲异闻
       src: https://www.grep-tsuhan.net/?pid=168865218
     type: 
       - 实体版游戏
