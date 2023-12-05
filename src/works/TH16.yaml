@@ -17,14 +17,14 @@ items:
     type: 
       - 数字版游戏
     site:
-      - DL SITE
+      - DLSITE
   - title: DMM Games
     links:
       src: https://dlsoft.dmm.com/detail/shanghaialice_0005
     type: 
       - 数字版游戏
     site:
-      - DMM GAMES
+      - DMMGAMES
   - title: 喵玉汉补
     links:
       src: https://bbs.nyasama.com/forum.php?mod=viewthread&tid=75646
@@ -39,6 +39,6 @@ items:
     site:
       - 网购实体游戏
       - STEAM
-      - DL SITE
-      - DMM GAMES
+      - DLSITE
+      - DMMGAMES
 cover: https://upload.thwiki.cc/thumb/5/52/%E4%B8%9C%E6%96%B9%E5%A4%A9%E7%A9%BA%E7%92%8B%E5%B0%81%E9%9D%A2.jpg/80px-%E4%B8%9C%E6%96%B9%E5%A4%A9%E7%A9%BA%E7%92%8B%E5%B0%81%E9%9D%A2.jpg

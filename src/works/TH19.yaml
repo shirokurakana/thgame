@@ -17,7 +17,7 @@ items:
     type: 
       - 数字版游戏
     site:
-      - DL SITE
+      - DLSITE
   - title: 魔法集市
     links:
       src: https://mall.masadora.jp/product/PTRLX2W8RX
