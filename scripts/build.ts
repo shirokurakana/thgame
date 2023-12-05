@@ -32,6 +32,7 @@ interface Links {
 	wiki: string;
 	src?: true | string;
 	down?: true | string;
+	pass?: true | string;
 }
 
 interface Tags {
@@ -86,7 +87,7 @@ for (const name of await fs.readdir(WORKS_ROOT, { encoding: "utf-8" })) {
 		works.push(work);
 	}
 }
-works.sort((a, b) => a.order - b.order);
+works.sort((a, b) => b.order - a.order);
 
 const sites: string[] = await readYAMLFile(path.join(DATA_ROOT, "site.yaml"));
 const types: string[] = await readYAMLFile(path.join(DATA_ROOT, "type.yaml"));
@@ -105,23 +106,23 @@ for (const work of works) {
 	}
 	work.cover = cover.target;
 
-	for (const item of work.items) {
-		const safeName = item.links.wiki
-			.replace(/^.+:/, "")
-			.replace(/[:\/\s&]+/g, "_")
-			.toLowerCase();
-		// if (item.links.ja == null || item.links.zh == null) {
-		// 	const translate: Translate = {
-		// 		src: `https://cache.thwiki.cc/${item.links.wiki}`,
-		// 		ja: `${TRANSLATE_ROOT}/${safeName}.ja.txt`,
-		// 		zh: `${TRANSLATE_ROOT}/${safeName}.zh.txt`,
-		// 	};
+	// for (const item of work.items) {
+	// 	const safeName = item.links.wiki
+	// 		.replace(/^.+:/, "")
+	// 		.replace(/[:\/\s&]+/g, "_")
+	// 		.toLowerCase();
+	// 	if (item.links.ja == null || item.links.zh == null) {
+	// 		const translate: Translate = {
+	// 			src: `https://cache.thwiki.cc/${item.links.wiki}`,
+	// 			ja: `${TRANSLATE_ROOT}/${safeName}.ja.txt`,
+	// 			zh: `${TRANSLATE_ROOT}/${safeName}.zh.txt`,
+	// 		};
 
-		// 	translates.push(translate);
-		// 	if (item.links.ja == null) item.links.ja = translate.ja;
-		// 	if (item.links.zh == null) item.links.zh = translate.zh;
-		// }
-	}
+	// 		translates.push(translate);
+	// 		if (item.links.ja == null) item.links.ja = translate.ja;
+	// 		if (item.links.zh == null) item.links.zh = translate.zh;
+	// 	}
+	// }
 }
 
 nunjucks.configure(SOURCE_ROOT + "/");

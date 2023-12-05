@@ -11,7 +11,7 @@ items:
     type: 
       - 数字版游戏
     site:
-      - steam
+      - STEAM
   - title: DL Site
     links:
       wiki: 东方鬼形兽
@@ -19,7 +19,7 @@ items:
     type: 
       - 数字版游戏
     site:
-      - dlsite
+      - DL SITE
   - title: DMM Games
     links:
       wiki: 东方鬼形兽
@@ -27,15 +27,20 @@ items:
     type: 
       - 数字版游戏
     site:
-      - dmm
-  - title: 喵玉汉化
+      - DMM GAMES
+  - title: 喵玉汉补
     links:
-      wiki: 东方鬼形兽
       src: https://bbs.nyasama.com/forum.php?mod=viewthread&tid=1841112
+      down: https://pan.baidu.com/s/1n5Nqy_j2c6fGr5lx9tc2Tg?pwd=bnif
+      pass: bnif
     type:
+      - 简中汉补
       - 喵玉汉补
+      - 实体版游戏
+      - 数字版游戏
     site:
-      - steam
-      - dlsite
-      - dmm
-cover: https://upload.thwiki.cc/thumb/b/b2/%E4%B8%9C%E6%96%B9%E7%BA%A2%E9%AD%94%E4%B9%A1%E5%B0%81%E9%9D%A2.jpg/80px-%E4%B8%9C%E6%96%B9%E7%BA%A2%E9%AD%94%E4%B9%A1%E5%B0%81%E9%9D%A2.jpg
+      - 网购实体游戏
+      - STEAM
+      - DL SITE
+      - DMM GAMES
+cover: https://upload.thwiki.cc/thumb/9/99/%E4%B8%9C%E6%96%B9%E9%AC%BC%E5%BD%A2%E5%85%BD%E5%B0%81%E9%9D%A2.jpg/80px-%E4%B8%9C%E6%96%B9%E9%AC%BC%E5%BD%A2%E5%85%BD%E5%B0%81%E9%9D%A2.jpg

@@ -1,0 +1,31 @@
+order: 1900
+code: TH19
+title: 东方兽王园
+tags:
+  era: zun
+items:
+  - title: Steam
+    links:
+      wiki: 东方兽王园
+      src: https://store.steampowered.com/app/2400340/
+    type: 
+      - 数字版游戏
+    site:
+      - STEAM
+  - title: DL Site
+    links:
+      wiki: 东方兽王园
+      src: http://www.dlsite.com/home/work/=/product_id/RJ01086206/
+    type: 
+      - 数字版游戏
+    site:
+      - DL SITE
+  - title: 魔法集市
+    links:
+      wiki: 东方兽王园
+      src: https://mall.masadora.jp/product/PTRLX2W8RX
+    type: 
+      - 实体版游戏
+    site:
+      - 网购实体游戏
+cover: https://upload.thwiki.cc/thumb/b/bd/%E4%B8%9C%E6%96%B9%E5%85%BD%E7%8E%8B%E5%9B%AD%E5%B0%81%E9%9D%A2.png/80px-%E4%B8%9C%E6%96%B9%E5%85%BD%E7%8E%8B%E5%9B%AD%E5%B0%81%E9%9D%A2.png

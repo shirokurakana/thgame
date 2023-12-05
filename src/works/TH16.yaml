@@ -1,0 +1,46 @@
+order: 1600
+code: TH16
+title: 东方天空璋
+tags:
+  era: zun
+items:
+  - title: Steam
+    links:
+      wiki: 东方天空璋
+      src: https://store.steampowered.com/app/745880
+    type: 
+      - 数字版游戏
+    site:
+      - STEAM
+  - title: DL Site
+    links:
+      wiki: 东方天空璋
+      src: http://www.dlsite.com/home/work/=/product_id/RJ254844/
+    type: 
+      - 数字版游戏
+    site:
+      - DL SITE
+  - title: DMM Games
+    links:
+      wiki: 东方天空璋
+      src: https://dlsoft.dmm.com/detail/shanghaialice_0005
+    type: 
+      - 数字版游戏
+    site:
+      - DMM GAMES
+  - title: 喵玉汉补
+    links:
+      src: https://bbs.nyasama.com/forum.php?mod=viewthread&tid=75646
+      down: https://pan.baidu.com/s/1Ydb1pDxInF7pvHxEJp3KyQ?pwd=th16
+      pass: th16
+    type:
+      - 简中汉补
+      - 喵玉汉补
+      - 实体版游戏
+      - 数字版游戏
+    site:
+      - 网购实体游戏
+      - STEAM
+      - DL SITE
+      - DMM GAMES
+cover: https://upload.thwiki.cc/thumb/5/52/%E4%B8%9C%E6%96%B9%E5%A4%A9%E7%A9%BA%E7%92%8B%E5%B0%81%E9%9D%A2.jpg/80px-%E4%B8%9C%E6%96%B9%E5%A4%A9%E7%A9%BA%E7%92%8B%E5%B0%81%E9%9D%A2.jpg
