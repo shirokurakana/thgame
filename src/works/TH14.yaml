@@ -1,0 +1,42 @@
+order: 1400
+code: TH14
+title: 东方辉针城
+tags:
+  era: zun
+items:
+  - title: Steam
+    links:
+      src: https://store.steampowered.com/app/1043240
+    type:
+      - 数字版游戏
+    site:
+      - STEAM
+  - title: DL Site
+    links:
+      src: http://www.dlsite.com/home/work/=/product_id/RJ254841/
+    type:
+      - 数字版游戏
+    site:
+      - DLSITE
+  - title: DMM Games
+    links:
+      src: https://dlsoft.dmm.com/detail/shanghaialice_0002
+    type:
+      - 数字版游戏
+    site:
+      - DMMGAMES
+  - title: 喵玉汉补
+    links:
+      src: https://bbs.nyasama.com/forum.php?mod=viewthread&tid=28111
+      down: https://pan.baidu.com/s/1A9AG5Y2j8AsOKE8L24rigQ?pwd=hzcc
+      downtype: 百度云
+      pass: hzcc
+    type:
+      - 简中汉补
+      - 喵玉汉补
+      - 实体版游戏
+      - 数字版游戏
+    site:
+      - DLSITE
+      - DMMGAMES
+cover: https://upload.thwiki.cc/thumb/a/a5/%E4%B8%9C%E6%96%B9%E8%BE%89%E9%92%88%E5%9F%8E%E5%B0%81%E9%9D%A2.jpg/80px-%E4%B8%9C%E6%96%B9%E8%BE%89%E9%92%88%E5%9F%8E%E5%B0%81%E9%9D%A2.jpg

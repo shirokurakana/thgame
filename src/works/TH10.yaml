@@ -1,0 +1,14 @@
+order: 1000
+code: TH10
+title: 东方风神录
+tags:
+  era: zun
+items:
+  - title: Steam
+    links:
+      src: https://store.steampowered.com/app/1100140
+    type:
+      - 数字版游戏
+    site:
+      - STEAM
+cover: https://upload.thwiki.cc/thumb/4/49/%E4%B8%9C%E6%96%B9%E9%A3%8E%E7%A5%9E%E5%BD%95%E5%B0%81%E9%9D%A2.jpg/80px-%E4%B8%9C%E6%96%B9%E9%A3%8E%E7%A5%9E%E5%BD%95%E5%B0%81%E9%9D%A2.jpg

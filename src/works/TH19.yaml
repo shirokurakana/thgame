@@ -7,21 +7,21 @@ items:
   - title: Steam
     links:
       src: https://store.steampowered.com/app/2400340/
-    type: 
+    type:
       - 数字版游戏
     site:
       - STEAM
   - title: DL Site
     links:
       src: http://www.dlsite.com/home/work/=/product_id/RJ01086206/
-    type: 
+    type:
       - 数字版游戏
     site:
       - DLSITE
   - title: 魔法集市
     links:
       src: https://mall.masadora.jp/product/PTRLX2W8RX
-    type: 
+    type:
       - 实体版游戏
     site:
       - 网购实体游戏

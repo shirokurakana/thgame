@@ -1,0 +1,42 @@
+order: 1430
+code: TH143
+title: 弹幕天邪鬼
+tags:
+  era: zun
+items:
+  - title: Steam
+    links:
+      src: https://store.steampowered.com/app/937570
+    type:
+      - 数字版游戏
+    site:
+      - STEAM
+  - title: DL Site
+    links:
+      src: http://www.dlsite.com/home/work/=/product_id/RJ254842/
+    type:
+      - 数字版游戏
+    site:
+      - DLSITE
+  - title: DMM Games
+    links:
+      src: https://dlsoft.dmm.com/detail/shanghaialice_0001
+    type:
+      - 数字版游戏
+    site:
+      - DMMGAMES
+  - title: 喵玉汉补
+    links:
+      src: https://bbs.nyasama.com/forum.php?mod=viewthread&tid=37482
+      down: https://pan.baidu.com/s/1dskOG7zH3d21LzX2tQp2Pw?pwd=143c
+      downtype: 百度云
+      pass: 143c
+    type:
+      - 简中汉补
+      - 喵玉汉补
+      - 实体版游戏
+      - 数字版游戏
+    site:
+      - DLSITE
+      - DMMGAMES
+cover: https://upload.thwiki.cc/thumb/4/47/%E5%BC%B9%E5%B9%95%E5%A4%A9%E9%82%AA%E9%AC%BC%E5%B0%81%E9%9D%A2.jpg/80px-%E5%BC%B9%E5%B9%95%E5%A4%A9%E9%82%AA%E9%AC%BC%E5%B0%81%E9%9D%A2.jpg

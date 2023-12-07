@@ -1,0 +1,42 @@
+order: 1500
+code: TH15
+title: 东方绀珠传
+tags:
+  era: zun
+items:
+  - title: Steam
+    links:
+      src: https://store.steampowered.com/app/937580
+    type:
+      - 数字版游戏
+    site:
+      - STEAM
+  - title: DL Site
+    links:
+      src: http://www.dlsite.com/home/work/=/product_id/RJ254843/
+    type:
+      - 数字版游戏
+    site:
+      - DLSITE
+  - title: DMM Games
+    links:
+      src: https://dlsoft.dmm.com/detail/shanghaialice_0003
+    type:
+      - 数字版游戏
+    site:
+      - DMMGAMES
+  - title: 喵玉汉补
+    links:
+      src: https://bbs.nyasama.com/forum.php?mod=viewthread&tid=56403
+      down: https://pan.baidu.com/s/1CUBAWihWofpPBMOQi16-MQ?pwd=13xd
+      downtype: 百度云
+      pass: 13xd
+    type:
+      - 简中汉补
+      - 喵玉汉补
+      - 实体版游戏
+      - 数字版游戏
+    site:
+      - DLSITE
+      - DMMGAMES
+cover: https://upload.thwiki.cc/thumb/3/37/%E4%B8%9C%E6%96%B9%E7%BB%80%E7%8F%A0%E4%BC%A0%E5%B0%81%E9%9D%A2.jpg/80px-%E4%B8%9C%E6%96%B9%E7%BB%80%E7%8F%A0%E4%BC%A0%E5%B0%81%E9%9D%A2.jpg
