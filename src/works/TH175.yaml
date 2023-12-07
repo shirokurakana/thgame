@@ -7,49 +7,59 @@ items:
   - title: Steam
     links:
       src: https://store.steampowered.com/app/1440500
-    type: 
+    type:
       - 数字版游戏
     site:
       - STEAM
   - title: 蜜瓜
     links:
       src: https://www.melonbooks.co.jp/detail/detail.php?product_id=1136685
-    type: 
+    type:
       - 实体版游戏
     site:
       - 网购实体游戏
   - title: 虎穴
     links:
       src: https://ec.toranoana.jp/tora_r/ec/item/040030943351
-    type: 
+    type:
       - 实体版游戏
     site:
       - 网购实体游戏
   - title: Akibaoo
     links:
       src: http://www.akibaoo.com/c/item/2600020043339/
-    type: 
+    type:
       - 实体版游戏
     site:
       - 网购实体游戏
   - title: Animate
     links:
       src: http://www.animate-onlineshop.jp/pd/2009961/
-    type: 
+    type:
       - 实体版游戏
     site:
       - 网购实体游戏
   - title: AkibaHOBBY
     links:
       src: https://shop.akbh.jp/products/2100000125784
-    type: 
+    type:
       - 实体版游戏
     site:
       - 网购实体游戏
   - title: Grep（新）
     links:
       src: https://www.grep-tsuhan.net/?pid=168865218
-    type: 
+    type:
+      - 实体版游戏
+    site:
+      - 网购实体游戏
+  - title: 民间汉补
+    links:
+      src: https://thpatch.rcopky.top/release/th175.html
+      down: https://thpatch.rcopky.top/release/th175.html#title-4
+      downtype: 下载页
+    type:
+      - 简中汉补
       - 实体版游戏
     site:
       - 网购实体游戏

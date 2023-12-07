@@ -7,21 +7,21 @@ items:
   - title: Steam
     links:
       src: https://store.steampowered.com/app/924650
-    type: 
+    type:
       - 数字版游戏
     site:
       - STEAM
   - title: DL Site
     links:
       src: http://www.dlsite.com/home/work/=/product_id/RJ254845/
-    type: 
+    type:
       - 数字版游戏
     site:
       - DLSITE
   - title: DMM Games
     links:
       src: https://dlsoft.dmm.com/detail/shanghaialice_0006
-    type: 
+    type:
       - 数字版游戏
     site:
       - DMMGAMES
