@@ -18,13 +18,6 @@ items:
       - 数字版游戏
     site:
       - DLSITE
-  - title: 魔法集市
-    links:
-      src: https://mall.masadora.jp/product/PTRLX2W8RX
-    type:
-      - 实体版游戏
-    site:
-      - 网购实体游戏
   - title: 民间汉补
     links:
       src: https://tieba.baidu.com/p/8812806506

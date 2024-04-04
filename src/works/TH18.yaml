@@ -25,13 +25,6 @@ items:
       - 数字版游戏
     site:
       - DMMGAMES
-  - title: 魔法集市
-    links:
-      src: https://mall.masadora.jp/product/PQRZ312YRN
-    type:
-      - 实体版游戏
-    site:
-      - 网购实体游戏
   - title: 喵玉汉补
     links:
       src: https://bbs.nyasama.com/forum.php?mod=viewthread&tid=1845257
